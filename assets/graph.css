@@ -1,0 +1,16 @@
+.underneath-ticks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    margin-left: 55px;
+    color: rgb(37, 150, 190);
+}
+
+#last-p{
+    width: 53px;
+}
+
+.underneath-ticks p{
+    width: 200px;
+}

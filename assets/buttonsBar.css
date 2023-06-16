@@ -1,0 +1,85 @@
+.dark-btn{
+    color: white !important;
+}
+
+.dark{
+    background: radial-gradient(circle at center, #133950, #060e1b) !important;
+    color: white !important;
+}
+
+.dark-pdf{
+    background: white !important;
+    color: black !important;
+}
+
+.selected{
+    color: rgb(37, 150, 190) !important; 
+    border: solid rgb(37, 150, 190) 2px !important;
+}
+
+.buttons-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+#main-aux-container{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+#pdf-export-container{
+    display: flex;
+    height: 40px;
+    margin-right: 40px;
+}
+
+#aux-button, #main-button{
+    width: 85px;
+    height: 45px;
+    border-radius: 0px;
+    font-size: large;
+    font-weight: bold;
+    background: transparent;
+    color: black; 
+    border: none;
+}
+
+#pdf-export-container button{
+    width: 120px;
+    height: 40px;
+    border-radius: 0px;
+    background: rgb(37, 150, 190); 
+    color: white;
+    border: none;
+}
+
+#info-btn{
+    display: none;
+    width: 40px !important;
+    height: 40px;
+    margin-right: 30px;
+    background-color: transparent !important;
+}
+
+#info-btn i{ 
+    width: 40px;
+    height: 40px;
+}
+
+#popover{
+    width: 420px;
+    height: 200px;
+    background-color: rgb(37, 150, 190);
+}
+
+
+@media (max-height: 500px) {
+    #info-btn{
+        display: flex;
+    }
+}
